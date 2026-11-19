@@ -6,6 +6,7 @@ version: 1.0.0
 tags: [defi, crypto, pre-token, token-radar, defillama, airdrop, protocol-ranking, crypto-research]
 keywords: [pre-token, implied value, DefiLlama, TVL, farm plan, airdrop, protocol ranking]
 use_cases: [Rank pre-token DeFi protocols by implied launch value, Find the most promising protocols to farm before their token launch, Explain why one protocol outranks another]
+docs_url: https://github.com/mrsaepudin40/pre-token-board
 ---
 
 # Pre-Token Board
