@@ -1,0 +1,106 @@
+{
+  "rows": [
+    {
+      "rank": 1,
+      "slug": "sample-lending",
+      "name": "Sample Lending",
+      "category": "Lending",
+      "chains": [
+        "Ethereum"
+      ],
+      "tvl_usd": 800000000,
+      "change_7d": 20,
+      "mcap_usd": null,
+      "listed_at": "2024-01-01",
+      "gecko_id": null,
+      "symbol": null,
+      "token_status": "pre-token",
+      "age_days": 731,
+      "implied_value_usd": 150842753,
+      "model": {
+        "category_multiple": 0.1977,
+        "growth_pct": 20,
+        "growth_multiplier": 1.1,
+        "maturity_multiplier": 0.867,
+        "age_days": 731
+      },
+      "farm_steps": [
+        "Use a fresh wallet that holds only the funds you plan to farm, and keep its seed phrase offline. Cost: under $15 of gas for the first transaction. Time: 5 minutes.",
+        "Supply $100 of USDC to Sample Lending on Ethereum and keep the position open. Cost: $100 of capital and about $10 of gas. Time: 15 minutes to set up.",
+        "Make one qualifying action each week, such as a deposit, a borrow, a swap or a vote. Cost: about $5 of gas a week. Time: 10 minutes a week.",
+        "Hold the position for at least 30 days so the activity is counted in more than one snapshot. Cost: the $100 stays in the position. Time: 30 days.",
+        "Before you withdraw, open the protocol's own points or rewards page and claim only from the link it publishes. Cost: no fee to check, and never pay to claim. Time: 10 minutes.",
+        "Write the wallet, the dates and every transaction in a farm log so you can repeat the position or unwind it. Cost: nothing but the log. Time: 5 minutes.",
+        "Implied value is a model, not a promise: this row's $150,842,753 is what the token could be worth if the protocol's record stayed as it is, never a guarantee it issues one. Cost: nothing but the check. Time: 5 minutes."
+      ]
+    },
+    {
+      "rank": 2,
+      "slug": "sample-dex",
+      "name": "Sample Dex",
+      "category": "Dexs",
+      "chains": [
+        "Arbitrum"
+      ],
+      "tvl_usd": 600000000,
+      "change_7d": -10,
+      "mcap_usd": null,
+      "listed_at": "2024-06-01",
+      "gecko_id": null,
+      "symbol": null,
+      "token_status": "pre-token",
+      "age_days": 579,
+      "implied_value_usd": 94732064,
+      "model": {
+        "category_multiple": 0.2048,
+        "growth_pct": -10,
+        "growth_multiplier": 0.95,
+        "maturity_multiplier": 0.8115,
+        "age_days": 579
+      },
+      "farm_steps": [
+        "Use a fresh wallet that holds only the funds you plan to farm, and keep its seed phrase offline. Cost: under $2 of gas for the first transaction. Time: 5 minutes.",
+        "Provide $100 of liquidity to Sample Dex's main pool on Arbitrum and keep the position open. Cost: $100 of capital and about $1 of gas. Time: 15 minutes to set up.",
+        "Make one qualifying action each week, such as a deposit, a borrow, a swap or a vote. Cost: about $0.50 of gas a week. Time: 10 minutes a week.",
+        "Hold the position for at least 30 days so the activity is counted in more than one snapshot. Cost: the $100 stays in the position. Time: 30 days.",
+        "Before you withdraw, open the protocol's own points or rewards page and claim only from the link it publishes. Cost: no fee to check, and never pay to claim. Time: 10 minutes.",
+        "Write the wallet, the dates and every transaction in a farm log so you can repeat the position or unwind it. Cost: nothing but the log. Time: 5 minutes.",
+        "Implied value is a model, not a promise: this row's $94,732,064 is what the token could be worth if the protocol's record stayed as it is, never a guarantee it issues one. Cost: nothing but the check. Time: 5 minutes."
+      ]
+    },
+    {
+      "rank": 3,
+      "slug": "sample-early",
+      "name": "Sample Early",
+      "category": "Yield",
+      "chains": [
+        "Base"
+      ],
+      "tvl_usd": 40000000,
+      "change_7d": 50,
+      "mcap_usd": null,
+      "listed_at": "2025-01-01",
+      "gecko_id": null,
+      "symbol": null,
+      "token_status": "pre-token",
+      "age_days": 365,
+      "implied_value_usd": 7333333,
+      "model": {
+        "category_multiple": 0.2,
+        "growth_pct": 50,
+        "growth_multiplier": 1.25,
+        "maturity_multiplier": 0.7333,
+        "age_days": 365
+      },
+      "farm_steps": [
+        "Use a fresh wallet that holds only the funds you plan to farm, and keep its seed phrase offline. Cost: under $2 of gas for the first transaction. Time: 5 minutes.",
+        "Provide $50 of liquidity to Sample Early's main pool on Base and keep the position open. Cost: $50 of capital and about $1 of gas. Time: 15 minutes to set up.",
+        "Make one qualifying action each week, such as a deposit, a borrow, a swap or a vote. Cost: about $0.50 of gas a week. Time: 10 minutes a week.",
+        "Hold the position for at least 30 days so the activity is counted in more than one snapshot. Cost: the $50 stays in the position. Time: 30 days.",
+        "Before you withdraw, open the protocol's own points or rewards page and claim only from the link it publishes. Cost: no fee to check, and never pay to claim. Time: 10 minutes.",
+        "Write the wallet, the dates and every transaction in a farm log so you can repeat the position or unwind it. Cost: nothing but the log. Time: 5 minutes.",
+        "Implied value is a model, not a promise: this row's $7,333,333 is what the token could be worth if the protocol's record stayed as it is, never a guarantee it issues one. Cost: nothing but the check. Time: 5 minutes."
+      ]
+    }
+  ]
+}
