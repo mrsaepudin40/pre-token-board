@@ -13,7 +13,7 @@ docs_url: https://github.com/mrsaepudin40/pre-token-board
 
 Rank pre-token DeFi protocols by implied launch value, from a
 snapshot of the protocol universe, with a costed six-step farm plan
-for each one. One transparent model, radar-2, applied the same way
+for each one. One transparent model, the pre-token-board model, applied the same way
 to every protocol. Every number is recomputable from the snapshot.
 
 Use this skill when the user asks to rank pre-token or token-less
@@ -72,7 +72,7 @@ board to replace it.
 
 Report the snapshot `as_of` date and source first, then the board
 size and the top rows: rank, name, category, TVL, implied value,
-and the category multiple. State the model version, radar-2.
+and the category multiple. State the model, the pre-token-board model.
 
 Check the board before presenting it: every watchlist slug is
 present, ranks run 1 to n with no gaps, rows are sorted by implied
@@ -107,10 +107,10 @@ a model, not a promise that a token will ever exist.
 ## Files
 
 - `SKILL.md` — this workflow.
-- `scripts/score.py` — the complete radar-2 model in dependency-free
+- `scripts/score.py` — the complete pre-token-board model in dependency-free
   Python 3. Run it as shown above. It takes `--input`, `--output`,
   and an optional `--top` display limit.
-- `reference/model.md` — the snapshot schema, the radar-2 formulas
+- `reference/model.md` — the snapshot schema, the pre-token-board model formulas
   and constants, the farm plan rules, and a hand-computed worked
   example.
 - `examples/sample-snapshot.json` — an invented 8-protocol snapshot

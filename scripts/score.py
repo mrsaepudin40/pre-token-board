@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-Token Board radar-2 scorer, self-contained, standard library only.
+"""Pre-Token Board model scorer, self-contained, standard library only.
 
 Reads one snapshot JSON, ranks its pre-token protocols by implied value,
 writes board.json. No network calls, no credentials, no other files read.
@@ -15,7 +15,7 @@ import re
 import sys
 from datetime import date
 
-MODEL_VERSION = "radar-2"
+MODEL_VERSION = "pre-token-board"
 GROWTH_WEIGHT = 0.5
 SHRINK_WEIGHT = 20
 SMALL_N = 5

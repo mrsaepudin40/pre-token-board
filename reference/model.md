@@ -1,4 +1,4 @@
-# Token Radar radar-2 — model notes
+# Pre-Token Board — model notes
 
 Provenance: built from a DefiLlama snapshot. On the 2026-11-14
 snapshot it scored 178 pre-token rows, led by Steakhouse Financial
@@ -57,7 +57,7 @@ not contain wrapped, staked or staking, and its category is not
 Bridge, Canonical Bridge, Liquid Staking, Liquid Restaking,
 Restaked BTC or CEX.
 
-## radar-2 formulas
+## Pre-token-board model formulas
 
 All constants are fixed. Do not tune them per snapshot.
 
@@ -88,7 +88,7 @@ implied      = max(1, round(tvl_usd * category_multiple * growth_mult * maturity
 ```
 
 There is no chain-breadth factor and no concave growth factor in
-radar-2. Growth is linear with weight 0.5. Do not add factors the
+the pre-token-board model. Growth is linear with weight 0.5. Do not add factors the
 model does not define.
 
 Board: every watchlist slug present in the snapshot is ranked, then

@@ -6,7 +6,7 @@
 
 Rank pre-token DeFi protocols by implied launch value, from a
 snapshot of the protocol universe, with a costed six-step farm plan
-for each one. One transparent model, radar-2, applied the same way
+for each one. One transparent model, the pre-token-board model, applied the same way
 to every protocol. Every number is recomputable from the snapshot.
 
 ## What it does
@@ -49,9 +49,9 @@ is not real market data.
 - `SKILL.md` — the agent skill: the full workflow for ranking a
   snapshot, presenting the board, explaining a row, and giving the
   farm plan.
-- `scripts/score.py` — the complete radar-2 model in
+- `scripts/score.py` — the complete pre-token-board model in
   dependency-free Python 3.
-- `reference/model.md` — the snapshot schema, the radar-2 formulas
+- `reference/model.md` — the snapshot schema, the pre-token-board model formulas
   and constants, the farm plan rules, and a hand-computed worked
   example.
 - `examples/` — a sample snapshot and the exact board the script
