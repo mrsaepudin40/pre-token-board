@@ -1,5 +1,9 @@
 # pre-token-board
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Python 3](https://img.shields.io/badge/python-3-blue)](scripts/score.py)
+[![API key: not required](https://img.shields.io/badge/API%20key-not%20required-brightgreen)](reference/model.md)
+
 Rank pre-token DeFi protocols by implied launch value, from a
 snapshot of the protocol universe, with a costed six-step farm plan
 for each one. One transparent model, radar-2, applied the same way
